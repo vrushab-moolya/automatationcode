@@ -22,8 +22,8 @@ if product.text== 'Sauce Labs Backpack' :
 
 driver.find_element(By.XPATH,"//a[.='CHECKOUT']").click()
 
-driver.find_element(By.ID,'first-name').send_keys('vrushab')
-driver.find_element(By.ID,'last-name').send_keys('moolya')
+driver.find_element(By.ID,'first-name').send_keys('manasa')
+driver.find_element(By.ID,'last-name').send_keys('m')
 driver.find_element(By.ID,'postal-code').send_keys('590004')
 driver.find_element(By.XPATH,"//input[@type='submit']").click()
 
